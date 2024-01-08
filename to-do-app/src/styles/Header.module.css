@@ -1,0 +1,25 @@
+.header {
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: green;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.header h1 {
+  color: white;
+  font-size: 3rem;
+}
+
+.btn-burger {
+  cursor: pointer;
+  font-size: 2rem;
+  position: absolute;
+  top: 35%;
+  right: 20px;
+  color: black;
+}

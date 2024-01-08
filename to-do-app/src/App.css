@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
+
+.App {
+  box-sizing: border-box;
+  background-color: #1f1e1e;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  height: 100vh;
+}
+
+.content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: calc(100% - 100px);
+  /* border: solid black 1px; */
+  overflow-y: auto;
+}
